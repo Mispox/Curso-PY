@@ -1,1 +1,2 @@
-agregar ejercicios clase 2 y 3
+agregar ejercicios clase 3
+
