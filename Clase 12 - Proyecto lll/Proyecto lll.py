@@ -2,8 +2,8 @@
 def validar_nombre():
     while True:
         nombre = input("Ingresá el nombre del socio: ")
-        if nombre == "":
-            print("Error: el nombre no puede estar vacío")
+        if nombre == "" or nombre.isdigit():
+            print("Error: el nombre debe contener al menos una letra")
         else:
             return nombre
 
